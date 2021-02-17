@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row mt-3 p-3 container-title">
+        <div class="col-12">
+          <h1>Come rain ☔ , come shine 🌞 ...</h1>
+          <h2 id="current-time">17 January 2021</h2>
+        </div>
+      </div>
+
+      <div class="row p-2 mt-3 container-search">
+        <div class="col-12">
+          <form id="city-form" class="row mt-3">
+            <div class="col-9">
+              <input
+                class="form-control"
+                id="city-input"
+                placeholder="Enter a city"
+              />
+            </div>
+            <div class="col-3">
+              <button id="search" type="submit" class="btn btn-danger mb-3">
+                Search
+              </button>
+              <button id="current-location" class="btn btn-primary mb-3">
+                Current location
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row p-2 mt-3 container-weather">
+        <div class="col-4 temperature">
+          <span id="current-temperature">5</span>
+          <span>
+            °C
+          </span>
+        </div>
+        <div class="col-4 weather">
+          Clear day <br />
+          ☀️
+        </div>
+        <div class="col-4 pt-2 information">
+          Humidity: <span id="humidity">88</span>% <br />
+          Wind: <span id="wind">3</span>mph
+
+          <div class="row">
+            <div class="col-6">
+              Day <br />
+              <span id="max-temp">5</span>°C
+            </div>
+            <div class="col-6">
+              Night <br />
+              <span id="min-temp">-1</span>°C
+            </div>
+          </div>
+        </div>
+        <div id="place" class="col-12 city">
+          London, United Kingdom
+        </div>
+      </div>
+
+      <div class="row p-2 mt-3 container-week">
+        <div class="col-12">
+          Upcoming week
+        </div>
+
+        <div class="col">
+          Mon <br />
+          5 °C ☀️
+        </div>
+        <div class="col">
+          Tue <br />
+          5 °C ☀️
+        </div>
+        <div class="col">
+          Wed <br />
+          8 °C 🌧️
+        </div>
+        <div class="col">
+          Thu <br />
+          7 °C 🌧️
+        </div>
+        <div class="col">
+          Fri <br />
+          2 °C ⛅
+        </div>
+        <div class="col">
+          Sat <br />
+          1 °C ⛅
+        </div>
+        <div class="col">
+          Sun <br />
+          -1 °C ❄️
+        </div>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>

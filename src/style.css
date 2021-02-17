@@ -1,0 +1,50 @@
+.container-title,
+.container-search,
+.container-weather,
+.container-week {
+  border: 3px solid #333;
+}
+.container-title h1 {
+  color: #42a5f5;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+.container-title h2 {
+  color: #939aa9;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+.container-weather .temperature {
+  font-size: 74px;
+  color: #ab47bc;
+  font-weight: bold;
+}
+.container-weather .weather {
+  font-size: 30px;
+  margin-top: 25px;
+  color: #ab47bc;
+  text-align: center;
+  font-weight: bold;
+}
+.container-weather .information {
+  font-size: 24px;
+  color: #ab47bc;
+  font-weight: bold;
+}
+.container-weather .city {
+  font-size: 36px;
+  color: #ab47bc;
+  font-weight: bold;
+}
+.container-week .col-12 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+.container-week .col {
+  color: #4eae53;
+  font-weight: bold;
+  text-align: center;
+}
